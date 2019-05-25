@@ -11,7 +11,7 @@ We call our resource, in this example, "MyFirstResource".
 
 ```
 $ dotnet new sln --name MyFirstResource
-$ dotnet new classlib --name MyFirstResource --framework netcoreapp2.1
+$ dotnet new classlib --name MyFirstResource --framework netcoreapp2.2
 $ dotnet sln MyFirstResource.sln add MyFirstResource
 ```
 
