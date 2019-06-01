@@ -12,7 +12,7 @@ Command Handlers are an easy way to register new commands. A command handler is 
 You can register new command handlers by calling following method:
 
 ```cs
-public class Main implements IResource {
+public class Main : IResource {
 
     public Main() 
     {
@@ -74,7 +74,7 @@ Delegate commands are an alternative way to add or register commands without the
 #### Registration
 
 ```cs
-public class Main implements IResource {
+public class Main : IResource {
 
     public Main() 
     {

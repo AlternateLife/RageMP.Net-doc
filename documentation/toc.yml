@@ -6,6 +6,10 @@
     href: installation.md
   - name: First resource
     href: first-resource.md
+- name: Upgrade
+  items:
+  - name: v1.1 to v1.2
+    href: upgrade-1_2.md
 - name: Events
   href: events.md
 - name: Commands
