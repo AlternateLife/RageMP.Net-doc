@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Commands </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Commands ">
+    <meta name="generator" content="docfx 2.42.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="logo" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="commands"><strong>Commands</strong></h1>
+
+<p>Commands can be used for easy communication with your gamemode. RageMP.Net supports command handling including type parsing.
+There are multiple ways to register commands in RageMP.Net.</p>
+<h2 id="command-handlers">Command Handlers</h2>
+<p>Command Handlers are an easy way to register new commands. A command handler is a simple class that implements <a href="../api/AlternateLife.RageMP.Net.Interfaces.ICommandHandler.html">ICommandHandler</a> and contains a collection of methods with the attribute <a href="../api/AlternateLife.RageMP.Net.Attributes.CommandAttribute.html">Command</a>.</p>
+<h4 id="registration">Registration</h4>
+<p>You can register new command handlers by calling following method:</p>
+<pre><code class="lang-cs">public class Main : IResource {
+
+    public Main() 
+    {
+        MP.Commands.RegisterHandler(new CommandHandler());  
+    }
+
+    public Task OnStartAsync()
+    {
+        return Task.CompletedTask;
+    }
+
+    public Task OnStopAsync()
+    {
+        return Task.CompletedTask;
+    }
+
+}
+</code></pre>
+<h4 id="signature">Signature</h4>
+<p>The first parameter of a command must always be <code>IPlayer</code>, the player that issued the command. From there commands within a command handler class support the following parameter types:</p>
+<ul>
+<li>All primitive types</li>
+<li>Strings</li>
+<li>Enums</li>
+</ul>
+<p>Alternatively you can also use the <code>IPlayer player, string[] arguments</code> signature within command handlers.</p>
+<p>Since all commands will be executed asynchronously, the return type must be <code>Task</code>.</p>
+<h4 id="example">Example</h4>
+<p>Let's define a simple command for creating a vehicle within a command handler:</p>
+<pre><code class="lang-cs">public class CommandHandler : ICommandHandler
+{
+    [Command(&quot;vehicle&quot;)]
+    public async Task Vehicle(IPlayer player, VehicleHash vehicleName)
+    {
+        var vehicle = await MP.Vehicles.NewAsync(vehicleName, player.Position);
+
+        player.PutIntoVehicle(vehicle, -1);
+
+        await player.OutputChatBoxAsync(&quot;Vehicle created&quot;);
+    }
+}
+</code></pre>
+<p>This command could be called by typing <code>/vehicle T20</code> into the ingame chat.</p>
+<p>More example commands can be found in the example resource.</p>
+<h2 id="delegate-commands">Delegate Commands</h2>
+<p>Delegate commands are an alternative way to add or register commands without the need of a command handler. The only downside of this way to register commands is, that you are unable to make use of our integrated type-parser.</p>
+<h4 id="registration-1">Registration</h4>
+<pre><code class="lang-cs">public class Main : IResource {
+
+    public Main() 
+    {
+        // Register command with class method
+        MP.Commands.Register(&quot;test1&quot;, ExampleCommand);
+
+        // Register command with lambda method
+        MP.Commands.Register(&quot;test&quot;, async (player, arguments) =&gt; {
+            await player.OutputChatBoxAsync(&quot;Command with lambda successful!&quot;);
+        });
+    }
+
+    private async Task ExampleCommand(IPlayer player, string[] arguments) 
+    {
+        await player.OutputChatBoxAsync(&quot;Command with method successful!&quot;);
+    }
+
+    public Task OnStartAsync()
+    {
+        return Task.CompletedTask;
+    }
+
+    public Task OnStopAsync()
+    {
+        return Task.CompletedTask;
+    }
+
+}
+</code></pre>
+<h2 id="error-handling">Error Handling</h2>
+<p>Whenever a command is not found or type parsing fails, RageMP.Net allows you to define how to handle this situation. By subscribing to <code>MP.Events.PlayerCommandFailed</code> you will be notified with an error message, reason, the players input and the player issuing the command.</p>
+<h2 id="removing-commands">Removing Commands</h2>
+<p>Using <code>MP.Commands.Remove()</code> and <code>MP.Commands.RemoveHandler()</code>, for commands and command handlers respectively, you can remove any commands at runtime.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

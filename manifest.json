@@ -1,0 +1,1205 @@
+{
+  "homepages": [],
+  "source_base_path": "/opt/buildagent/work/3eb08565ab97051e/repo",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Attributes.CommandAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Attributes.CommandAttribute.html",
+          "hash": "5AMUjd8LbZyj+8rdc8Balg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Attributes.html",
+          "hash": "OMXZP0Wf9YaiM1TUgHf1oA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Data.ClothData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Data.ClothData.html",
+          "hash": "qt7XfY2xnr7Nnx/0uKVIjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Data.HeadBlendData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Data.HeadBlendData.html",
+          "hash": "N4X6CGXn3e7cLygr7JoxjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Data.HeadOverlayData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Data.HeadOverlayData.html",
+          "hash": "F0cBkd5WbeKfL8pEJXdwWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Data.PaintData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Data.PaintData.html",
+          "hash": "BPorRbTJFtdslryaVeYpeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Data.PropData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Data.PropData.html",
+          "hash": "K0iWFfCWC6sZa97zi4/SMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Data.TimeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Data.TimeData.html",
+          "hash": "yXEdWnkukOBPrxfH9hwH8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Data.html",
+          "hash": "Fsy9PM5+WbsoBAcspWau/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.AnimationFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.AnimationFlags.html",
+          "hash": "htwnNefqZfBA/BNM81PIqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.ClothSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.ClothSlot.html",
+          "hash": "CiGNYrW6iWTbIfoljxryBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.ColshapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.ColshapeType.html",
+          "hash": "qF7ahOcvnUrzHxnapSlXhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.CommandError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.CommandError.html",
+          "hash": "crE9NtoIwOzenI6roACQlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.DeathReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.DeathReason.html",
+          "hash": "ZfbBak2su9vTlwDKTjqCtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.DisconnectReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.DisconnectReason.html",
+          "hash": "bYDyiqfazVPe4iCB+fNJ5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.EntityType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.EntityType.html",
+          "hash": "iFMnQ0Guijm1R8twmd1sCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.LogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.LogLevel.html",
+          "hash": "PllwYP1BYClcCG0c1HBVYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.MarkerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.MarkerType.html",
+          "hash": "Ff2Q19mTPYv2oc2h96SS6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.MaterialType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.MaterialType.html",
+          "hash": "t3gK3UFy4kzconMG6Oiu0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.PedHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.PedHash.html",
+          "hash": "xsOK1ybMOG3LbEJZ0t8llw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.PropSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.PropSlot.html",
+          "hash": "k366Z+HtIzTI+xZxZuFnKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.VehicleHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.VehicleHash.html",
+          "hash": "cGFHVyPS5uD/RE5QOUn/sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.WeaponHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.WeaponHash.html",
+          "hash": "g03nDgL6u740OKZFiTE7PQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.WeatherType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.WeatherType.html",
+          "hash": "bQ0DXPm9Omi42Rpm+PpQ0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Enums.html",
+          "hash": "usK1++2Jqw2tdJmols9nOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.EntityEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.EntityEventArgs.html",
+          "hash": "4UOcHLpMYZfMjT/C3kjjag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.EntityModelEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.EntityModelEventArgs.html",
+          "hash": "q728oLvgC19P4nM+yGOaFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerChatEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerChatEventArgs.html",
+          "hash": "BrJOwOJpzS5feq5Hm6dP2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerCheckpointEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerCheckpointEventArgs.html",
+          "hash": "QroztL+oK1EVbtmvSJImYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerColshapeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerColshapeEventArgs.html",
+          "hash": "BxbkeIFAphgArfBlgTXKCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerCommandEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerCommandEventArgs.html",
+          "hash": "1Jrl7mz1hoPJcxdBhuL5og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerCommandFailedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerCommandFailedEventArgs.html",
+          "hash": "zVNJOiEDc2RLUjjKXczuwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerCreateWaypointEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerCreateWaypointEventArgs.html",
+          "hash": "0Ae+nrUkcz5FlUlD1Um+eQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerDamageEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerDamageEventArgs.html",
+          "hash": "DmXiJFCvEXl5fwRlC+z1yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerDeathEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerDeathEventArgs.html",
+          "hash": "IrSPGd4/2RagjsDrDAPasw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerEnterVehicleEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerEnterVehicleEventArgs.html",
+          "hash": "XGQ2G5HAdu28uNE19HPYFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerEventArgs.html",
+          "hash": "NyGp2S9L23DkQ9c6Jfyhtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerQuitEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerQuitEventArgs.html",
+          "hash": "ZeYVPOuZ8Dmu78UPmx5bBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerRemoteEventEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerRemoteEventEventArgs.html",
+          "hash": "y7W9oEzHjNaJRB8KIAYCpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerStreamEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerStreamEventArgs.html",
+          "hash": "N2vA0BfU71gytPMKuEIu+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerVehicleEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerVehicleEventArgs.html",
+          "hash": "BwQI20t+kuUvh2m3Br6NKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerWeaponChangeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.PlayerWeaponChangeEventArgs.html",
+          "hash": "2etXlI5Ejnek4Casw5pBuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.VehicleDamageEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.VehicleDamageEventArgs.html",
+          "hash": "dPCWXmhzML+QpY+2sJ7K5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.VehicleDeathEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.VehicleDeathEventArgs.html",
+          "hash": "7rpm8VOd8T+iwgHHvRMMOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.VehicleEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.VehicleEventArgs.html",
+          "hash": "94XajZ3VAnJAEHKLNWIjgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.VehicleToggleEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.VehicleToggleEventArgs.html",
+          "hash": "zZ9duntN1GgCWERpRKXKKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.VehicleTrailerEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.VehicleTrailerEventArgs.html",
+          "hash": "ruAW3YDuL8XMjcKZtc0NTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.EventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.EventArgs.html",
+          "hash": "W9WCVANVW4oyoYGBczJGQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Exceptions.EntityDeletedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Exceptions.EntityDeletedException.html",
+          "hash": "0XHAC5OVyAkFNkqp5Ngtdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Exceptions.html",
+          "hash": "dcLXanK1Sb0aJcUlWr0r8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IBlip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IBlip.html",
+          "hash": "uFtBj4FrdJGIjLTb1w7C9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IBlipPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IBlipPool.html",
+          "hash": "aRHQbwRBxVb8GgOQ9ZIO3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ICheckpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ICheckpoint.html",
+          "hash": "7l0wPnTB9ES4PN5+0st0aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ICheckpointPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ICheckpointPool.html",
+          "hash": "TLx0sEI0xh4obp5ck5egdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IColshape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IColshape.html",
+          "hash": "rgUA/te/5xlFCQF2Ek+TSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IColshapePool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IColshapePool.html",
+          "hash": "Io46U7ZtvcZP1oMiRiklCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ICommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ICommandHandler.html",
+          "hash": "15ZP6GgATqsAZeOIO2aCUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ICommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ICommands.html",
+          "hash": "Je1eGBqys8qC0MNvO0NxOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IConfig.html",
+          "hash": "t46Uxh6+edtb+6WfLjMiKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IEntity.html",
+          "hash": "QsFtFAqeIGY4TdtbpI2S2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IEventScripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IEventScripting.html",
+          "hash": "Bh9a9do03i8f82Tw73Ho9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ILogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ILogger.html",
+          "hash": "ozJLUA/0sYoF/0kB4nqaQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IMarker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IMarker.html",
+          "hash": "OV2gaNhf+N0f82A4KPvWWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IMarkerPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IMarkerPool.html",
+          "hash": "H8zOBydHNxHAlcfOGtFdFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IObject.html",
+          "hash": "w1KcrfBTYMuMz/6VlwcjTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IObjectPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IObjectPool.html",
+          "hash": "HgI6LAU0zPHYs1czaXWorw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IPlayer.html",
+          "hash": "+Q7USh++7lhyRCo1mHVseg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IPlayerPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IPlayerPool.html",
+          "hash": "0oe/TOSISE32Dsvkv5A8+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IPool-1.html",
+          "hash": "q1Gnp4Y3Q4tNbWBRxAZJQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ITextLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ITextLabel.html",
+          "hash": "jNiGSRqCCc70n3+hjbH7nQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ITextLabelPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ITextLabelPool.html",
+          "hash": "CkJdoqFzIUC7MNqzFix9Mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ITypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.ITypeParser.html",
+          "hash": "rlW6GgkDq8FPDJS5RfLV6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IUtility.html",
+          "hash": "Cuq5p2Mw2fjllQYzcUjZyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IVehicle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IVehicle.html",
+          "hash": "KWrvkUk9H0t00tq9GNpT5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IVehiclePool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IVehiclePool.html",
+          "hash": "WMxgZ+EGQVaSfRSnWj0R+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IWorld.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.IWorld.html",
+          "hash": "jQoC5mk3KTwFow+N8B/Kxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Interfaces.html",
+          "hash": "q1Stdg8GaN6VfWRHMITgYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Scripting.AsyncEventHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Scripting.AsyncEventHandler-1.html",
+          "hash": "6wP8VGPENRD8aNyLFf8Nsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Scripting.CommandDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Scripting.CommandDelegate.html",
+          "hash": "0s8kQxBiBiDzix4FTq7V2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Scripting.IResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Scripting.IResource.html",
+          "hash": "jGpRhzlyRZIpRF2ILiNNrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Scripting.MP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Scripting.MP.html",
+          "hash": "xtwBLKbiGQyqWorX+9EDVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Scripting.ParserDelegate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Scripting.ParserDelegate-1.html",
+          "hash": "LrZCS99gTiwVp/eaZYFkGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Scripting.PlayerQuitDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Scripting.PlayerQuitDelegate.html",
+          "hash": "KKXYvwW/bVSALtJ17jPQhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlternateLife.RageMP.Net.Scripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlternateLife.RageMP.Net.Scripting.html",
+          "hash": "KxwSrDC3bh1cWX9Nj7NxJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "nG7fag7CtYs0DrBK+rWo+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "TmzdAyl4sr4/ZqiTRCKxcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/commands.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/commands.html",
+          "hash": "aYH5CgwUQ8V07+UE0ClAVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/events.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/events.html",
+          "hash": "WjcvXqNVgEcLo8gUq6Ahvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/first-resource.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/first-resource.html",
+          "hash": "jaZQ/Vx45/Zwtw98hRbfpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/index.html",
+          "hash": "fOlcVjSaAg3ddWDmArYVDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/installation.html",
+          "hash": "rV1Q65AjPOn6gYIq9b8cag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "documentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/toc.html",
+          "hash": "nAZGM8DhTcGE6ZQPcq/h4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/upgrade-1_2.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/upgrade-1_2.html",
+          "hash": "a14WKMTIWpMFqEYXMeqAiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "cRQUWfQyZZ/pO8XerBi++w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "VJtsTbs8633XDsOXmPcYrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 84,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

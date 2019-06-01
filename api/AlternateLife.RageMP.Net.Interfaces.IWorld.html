@@ -1,0 +1,985 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IWorld
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IWorld
+   ">
+    <meta name="generator" content="docfx 2.42.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="logo" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld">
+  
+  
+  <h1 id="AlternateLife_RageMP_Net_Interfaces_IWorld" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld" class="text-break">Interface IWorld
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AlternateLife.RageMP.Net.Interfaces.html">AlternateLife.RageMP.Net.Interfaces</a></h6>
+  <h6><strong>Assembly</strong>: AlternateLife.RageMP.Net.dll</h6>
+  <h5 id="AlternateLife_RageMP_Net_Interfaces_IWorld_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IWorld</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_AreTrafficLightsLocked.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.AreTrafficLightsLocked%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L82">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_AreTrafficLightsLocked_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.AreTrafficLightsLocked*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_AreTrafficLightsLocked" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.AreTrafficLightsLocked">AreTrafficLightsLocked()</h4>
+  <div class="markdown level1 summary"><p>Get the traffic lights lock state of the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool AreTrafficLightsLocked()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if the traffic lights are frozen, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_AreTrafficLightsLockedAsync.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.AreTrafficLightsLockedAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L88">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_AreTrafficLightsLockedAsync_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.AreTrafficLightsLockedAsync*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_AreTrafficLightsLockedAsync" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.AreTrafficLightsLockedAsync">AreTrafficLightsLockedAsync()</h4>
+  <div class="markdown level1 summary"><p>Get the traffic lights lock state of the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; AreTrafficLightsLockedAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><p>true if the traffic lights are frozen, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_GetTime.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.GetTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L26">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_GetTime_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.GetTime*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_GetTime" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.GetTime">GetTime()</h4>
+  <div class="markdown level1 summary"><p>Get the time of the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TimeData GetTime()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AlternateLife.RageMP.Net.Data.TimeData.html">TimeData</a></td>
+        <td><p>Current time of the world</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_GetTimeAsync.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.GetTimeAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L32">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_GetTimeAsync_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.GetTimeAsync*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_GetTimeAsync" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.GetTimeAsync">GetTimeAsync()</h4>
+  <div class="markdown level1 summary"><p>Get the time of the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;TimeData&gt; GetTimeAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="AlternateLife.RageMP.Net.Data.TimeData.html">TimeData</a>&gt;</td>
+        <td><p>Current time of the world</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_GetTrafficLightsState.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.GetTrafficLightsState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L106">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_GetTrafficLightsState_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.GetTrafficLightsState*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_GetTrafficLightsState" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.GetTrafficLightsState">GetTrafficLightsState()</h4>
+  <div class="markdown level1 summary"><p>Get the traffic light state of the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GetTrafficLightsState()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Current state of all traffic lights</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_GetTrafficLightsStateAsync.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.GetTrafficLightsStateAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L112">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_GetTrafficLightsStateAsync_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.GetTrafficLightsStateAsync*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_GetTrafficLightsStateAsync" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.GetTrafficLightsStateAsync">GetTrafficLightsStateAsync()</h4>
+  <div class="markdown level1 summary"><p>Get the traffic light state of the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int&gt; GetTrafficLightsStateAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>Current state of all traffic lights</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_GetWeather.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.GetWeather%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L56">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_GetWeather_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.GetWeather*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_GetWeather" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.GetWeather">GetWeather()</h4>
+  <div class="markdown level1 summary"><p>Get the weather of the world.</p>
+<p>If value is set to WeatherType.XMAS, snow will lay on the ground.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">WeatherType GetWeather()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AlternateLife.RageMP.Net.Enums.WeatherType.html">WeatherType</a></td>
+        <td><p>The current weather of the world</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_GetWeatherAsync.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.GetWeatherAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L64">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_GetWeatherAsync_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.GetWeatherAsync*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_GetWeatherAsync" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.GetWeatherAsync">GetWeatherAsync()</h4>
+  <div class="markdown level1 summary"><p>Get the weather of the world.</p>
+<p>If value is set to WeatherType.XMAS, snow will lay on the ground.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;WeatherType&gt; GetWeatherAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="AlternateLife.RageMP.Net.Enums.WeatherType.html">WeatherType</a>&gt;</td>
+        <td><p>The current weather of the world</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_RemoveIpl_System_String_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.RemoveIpl(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L147">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_RemoveIpl_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.RemoveIpl*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_RemoveIpl_System_String_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.RemoveIpl(System.String)">RemoveIpl(String)</h4>
+  <div class="markdown level1 summary"><p>Remove an ipl from the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveIpl(string ipl)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ipl</span></td>
+        <td><p>Name of the ipl to unload</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_RemoveIplAsync_System_String_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.RemoveIplAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L154">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_RemoveIplAsync_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.RemoveIplAsync*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_RemoveIplAsync_System_String_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.RemoveIplAsync(System.String)">RemoveIplAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Remove an ipl from the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveIplAsync(string ipl)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ipl</span></td>
+        <td><p>Name of the ipl to unload</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_RequestIpl_System_String_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.RequestIpl(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L133">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_RequestIpl_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.RequestIpl*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_RequestIpl_System_String_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.RequestIpl(System.String)">RequestIpl(String)</h4>
+  <div class="markdown level1 summary"><p>Request an ipl in the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RequestIpl(string ipl)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ipl</span></td>
+        <td><p>Name of the ipl to load</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_RequestIplAsync_System_String_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.RequestIplAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L140">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_RequestIplAsync_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.RequestIplAsync*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_RequestIplAsync_System_String_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.RequestIplAsync(System.String)">RequestIplAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Request an ipl in the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RequestIplAsync(string ipl)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ipl</span></td>
+        <td><p>Name of the ipl to load</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_SetTime_AlternateLife_RageMP_Net_Data_TimeData_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.SetTime(AlternateLife.RageMP.Net.Data.TimeData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L14">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetTime_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetTime*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetTime_AlternateLife_RageMP_Net_Data_TimeData_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetTime(AlternateLife.RageMP.Net.Data.TimeData)">SetTime(TimeData)</h4>
+  <div class="markdown level1 summary"><p>Set the time of the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetTime(TimeData time)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AlternateLife.RageMP.Net.Data.TimeData.html">TimeData</a></td>
+        <td><span class="parametername">time</span></td>
+        <td><p>New time to set the world to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_SetTimeAsync_AlternateLife_RageMP_Net_Data_TimeData_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.SetTimeAsync(AlternateLife.RageMP.Net.Data.TimeData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L20">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetTimeAsync_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetTimeAsync*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetTimeAsync_AlternateLife_RageMP_Net_Data_TimeData_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetTimeAsync(AlternateLife.RageMP.Net.Data.TimeData)">SetTimeAsync(TimeData)</h4>
+  <div class="markdown level1 summary"><p>Set the time of the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task SetTimeAsync(TimeData time)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AlternateLife.RageMP.Net.Data.TimeData.html">TimeData</a></td>
+        <td><span class="parametername">time</span></td>
+        <td><p>New time to set the world to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_SetTrafficLightsLocked_System_Boolean_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.SetTrafficLightsLocked(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L70">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetTrafficLightsLocked_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetTrafficLightsLocked*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetTrafficLightsLocked_System_Boolean_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetTrafficLightsLocked(System.Boolean)">SetTrafficLightsLocked(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Set the traffic lights lock state of the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetTrafficLightsLocked(bool locked)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">locked</span></td>
+        <td><p>true if traffic lights should keep the current status</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_SetTrafficLightsLockedAsync_System_Boolean_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.SetTrafficLightsLockedAsync(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L76">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetTrafficLightsLockedAsync_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetTrafficLightsLockedAsync*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetTrafficLightsLockedAsync_System_Boolean_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetTrafficLightsLockedAsync(System.Boolean)">SetTrafficLightsLockedAsync(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Set the traffic lights lock state of the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task SetTrafficLightsLockedAsync(bool locked)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">locked</span></td>
+        <td><p>true if traffic lights should keep the current status</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_SetTrafficLightsState_System_Int32_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.SetTrafficLightsState(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L94">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetTrafficLightsState_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetTrafficLightsState*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetTrafficLightsState_System_Int32_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetTrafficLightsState(System.Int32)">SetTrafficLightsState(Int32)</h4>
+  <div class="markdown level1 summary"><p>Set the traffic light state of the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetTrafficLightsState(int state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>State of all traffic lights</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_SetTrafficLightsStateAsync_System_Int32_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.SetTrafficLightsStateAsync(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L100">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetTrafficLightsStateAsync_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetTrafficLightsStateAsync*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetTrafficLightsStateAsync_System_Int32_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetTrafficLightsStateAsync(System.Int32)">SetTrafficLightsStateAsync(Int32)</h4>
+  <div class="markdown level1 summary"><p>Set the traffic light state of the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task SetTrafficLightsStateAsync(int state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>State of all traffic lights</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_SetWeather_AlternateLife_RageMP_Net_Enums_WeatherType_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.SetWeather(AlternateLife.RageMP.Net.Enums.WeatherType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L40">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetWeather_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetWeather*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetWeather_AlternateLife_RageMP_Net_Enums_WeatherType_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetWeather(AlternateLife.RageMP.Net.Enums.WeatherType)">SetWeather(WeatherType)</h4>
+  <div class="markdown level1 summary"><p>Set the weather of the world.</p>
+<p>If value is set to WeatherType.XMAS, snow will lay on the ground.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetWeather(WeatherType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AlternateLife.RageMP.Net.Enums.WeatherType.html">WeatherType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>New weather of the world</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_SetWeatherAsync_AlternateLife_RageMP_Net_Enums_WeatherType_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.SetWeatherAsync(AlternateLife.RageMP.Net.Enums.WeatherType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L48">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetWeatherAsync_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetWeatherAsync*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetWeatherAsync_AlternateLife_RageMP_Net_Enums_WeatherType_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetWeatherAsync(AlternateLife.RageMP.Net.Enums.WeatherType)">SetWeatherAsync(WeatherType)</h4>
+  <div class="markdown level1 summary"><p>Set the weather of the world.</p>
+<p>If value is set to WeatherType.XMAS, snow will lay on the ground.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task SetWeatherAsync(WeatherType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AlternateLife.RageMP.Net.Enums.WeatherType.html">WeatherType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>New weather of the world</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_SetWeatherTransition_AlternateLife_RageMP_Net_Enums_WeatherType_System_Single_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.SetWeatherTransition(AlternateLife.RageMP.Net.Enums.WeatherType%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L119">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetWeatherTransition_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetWeatherTransition*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetWeatherTransition_AlternateLife_RageMP_Net_Enums_WeatherType_System_Single_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetWeatherTransition(AlternateLife.RageMP.Net.Enums.WeatherType,System.Single)">SetWeatherTransition(WeatherType, Single)</h4>
+  <div class="markdown level1 summary"><p>Start a weather transition on the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetWeatherTransition(WeatherType weather, float time = 0.5F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AlternateLife.RageMP.Net.Enums.WeatherType.html">WeatherType</a></td>
+        <td><span class="parametername">weather</span></td>
+        <td><p>New weather to transit to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">time</span></td>
+        <td><p>Duration of the transition</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/AlternateLife/ragemp-dotnet-core-doc/new/master/apiSpec/new?filename=AlternateLife_RageMP_Net_Interfaces_IWorld_SetWeatherTransitionAsync_AlternateLife_RageMP_Net_Enums_WeatherType_System_Single_.md&amp;value=---%0Auid%3A%20AlternateLife.RageMP.Net.Interfaces.IWorld.SetWeatherTransitionAsync(AlternateLife.RageMP.Net.Enums.WeatherType%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/AlternateLife/RageMP.Net-doc/blob/gh-pages/RageMP.Net/src/AlternateLife.RageMP.Net/Interfaces/IWorld.cs/#L126">View Source</a>
+  </span>
+  <a id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetWeatherTransitionAsync_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetWeatherTransitionAsync*"></a>
+  <h4 id="AlternateLife_RageMP_Net_Interfaces_IWorld_SetWeatherTransitionAsync_AlternateLife_RageMP_Net_Enums_WeatherType_System_Single_" data-uid="AlternateLife.RageMP.Net.Interfaces.IWorld.SetWeatherTransitionAsync(AlternateLife.RageMP.Net.Enums.WeatherType,System.Single)">SetWeatherTransitionAsync(WeatherType, Single)</h4>
+  <div class="markdown level1 summary"><p>Start a weather transition on the world.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task SetWeatherTransitionAsync(WeatherType weather, float time = 0.5F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AlternateLife.RageMP.Net.Enums.WeatherType.html">WeatherType</a></td>
+        <td><span class="parametername">weather</span></td>
+        <td><p>New weather to transit to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">time</span></td>
+        <td><p>Duration of the transition</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
